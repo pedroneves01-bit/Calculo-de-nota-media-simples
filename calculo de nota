@@ -1,0 +1,19 @@
+# Programa: Aluno
+
+# Entrada de dados
+n1 = float(input("Primeira Nota: "))
+n2 = float(input("Segunda nota: "))
+
+# Cálculo da média
+m = (n1 + n2) / 2
+
+# Exibição da média com 2 casas decimais
+print(f"A média do aluno foi {m:.2f}")
+
+# Estrutura condicional
+if m >= 7:
+    print("Aluno APROVADO")
+elif 5 <= m < 7:
+    print("Aluno em RECUPERAÇÃO")
+else:
+    print("Aluno REPROVADO")
